@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cars=["BMW","Lambo","Audi","Swift","BMW"];
+        // console.log(cars.includes("BMW"))
+        // console.log(cars.indexOf("BMW"))
+        // console.log(cars.find("BMW"))
+        // console.log(cars.findIndex("BMW"))
+        // console.log(cars.lastIndexOf("BMW"))
+
+        let result=cars.findIndex(function(orders) {
+            return orders==="BMW"
+        })
+        console.log(result)
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button onclick="myfn()">Try it</button>
+    <script>
+        // const foods=["Pongal","Meals","Chapathi"];
+        // let flen=foods.length;
+        // let text="<ul>";
+        // for(let i=0;i<flen;i++){
+        //     text+="<li>"+foods[i]+"</li>"
+        //     }
+        // text+="</ul>"
+        // document.getElementById('demo').innerHTML=text;
+
+        // const fruits=["apple","orange","pomegranate"];
+        // let text="<ul>"
+        //     fruits.forEach(myfn);
+        // text+="</ul>";
+        // function myfn(value){
+        //     text+="<li>"+value+"</li>";
+        // }
+        // document.getElementById('demo').innerHTML=text
+    
+        const veg=["carrot","beetroot","lemon"]
+        document.getElementById('demo').innerHTML=veg;
+        function myfn(){
+            veg[veg.length]="Bitter guard";
+            document.getElementById('demo').innerHTML=veg;
+        }
+       
+    </script>
+</body>
+</html>

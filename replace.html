@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick=myfunc()>Try this</button>
+    <p id="demo">I'm Vishwa and I have another name called Vishwa </p>
+    <script>
+        function myfunc(){
+            let changes=document.getElementById('demo').innerHTML;
+            document.getElementById('demo').innerHTML=changes.replace("Vishwa","awhsiV")
+            
+        };
+    
+    </script> -->
+    <button onclick="myfunc()">Click me</button>
+    <p id="hai"></p>
+    <script>
+        function myfunc(){
+            let text="I replace cats over dogs and Cats over Dogs"
+            text=text.replaceAll("Cats","Dogs");
+            text=text.replaceAll("cats","dogs");
+            document.getElementById('hai').innerHTML=text
+        };
+    </script>
+</body>
+</html>

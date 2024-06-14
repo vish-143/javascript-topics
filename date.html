@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #my_img{
+        width: 10%;
+    }
+</style>
+<body>
+    <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Click me to see Date and Time</button>
+    <p id="demo"></p>
+    <button type="button" onclick="document.getElementById('hai').innerHTML='Eh Epudra'">Press here</button>
+    <p id="hai">Ready to see magic</p>
+    <button type="button" onclick="document.getElementById('my_img').src='/assets/light_on.jpg'">Turn me to On</button>
+    <img id="my_img" src="/assets/light_off.jpg" alt="Bulb">
+    <button type="button" onclick="document.getElementById('my_img').src='/assets/light_off.jpg'">Turn me to Off</button>
+</body>
+</html>

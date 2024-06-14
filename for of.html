@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const fav={
+            color:"blue",
+            food:"pongal",
+            dress:"jean"
+        }
+        for(let keys in fav){
+            console.log(keys);
+        }
+
+        const colors=["red","blue","green"]
+        for(let color of colors){
+            console.log(color)
+        }
+
+        const cinema=["kollywood","Bollywood","Tollywood"]
+        cinema.forEach((element,index)=> {
+            console.log(element,index)
+        });
+    </script>
+</body>
+</html>
